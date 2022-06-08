@@ -26,7 +26,7 @@ produce a binary table. """
 def help_msg():
     """ Display help message """
     print('./gffComp.py [option]\n'
-          'Extract common and unique features between 2 bacterial assemblies.\n'
+          'Compare GFF files products of two assemblies.\n'
           'Use either -g or -i\n'
           '-h\t\tDisplay this help\n'
           '-g, --gff\tGFF files (separated by comma, no space)\n'

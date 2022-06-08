@@ -10,13 +10,13 @@ import shutil
 try:
     from Bio import SeqIO
 except ModuleNotFoundError:
-    sys.exit("\nBiopython not installed\n\"pip install biopython\" to install it in your local environment.")
+    sys.exit("\nBiopython not installed\n\"pip3 install biopython\" to install it in your local environment.")
 
 # Import GFF parser
 try:
     from BCBio import GFF
 except ModuleNotFoundError:
-    sys.exit("\nbcbio-gff not installed\n\"pip install bcbio-gff\" to install it in your local environment.")
+    sys.exit("\nbcbio-gff not installed\n\"pip3 install bcbio-gff\" to install it in your local environment.")
 
 
 """ Extract and compare annotations products from 2 bacterial assembly GFF files. Print results in STDOUT and 
